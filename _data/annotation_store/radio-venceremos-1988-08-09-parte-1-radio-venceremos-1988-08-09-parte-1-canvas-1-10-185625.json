@@ -1,0 +1,44 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://trentwintermeier.github.io/exampleproject/annotations/radio-venceremos-1988-08-09-parte-1-radio-venceremos-1988-08-09-parte-1-canvas-1-10-185625.json",
+  "type": "AnnotationPage",
+  "label": "10.185625",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "radio-venceremos-1988-08-09-parte-1-radio-venceremos-1988-08-09-parte-1-canvas-1-10-185625-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "10.185625",
+          "format": "text/plain",
+          "purpose": "commenting"
+        },
+        {
+          "type": "TextualBody",
+          "value": "10",
+          "format": "text/plain",
+          "purpose": "tagging"
+        },
+        {
+          "type": "TextualBody",
+          "value": "185625",
+          "format": "text/plain",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "source": "https://trentwintermeier.github.io/exampleproject/radio-venceremos-1988-08-09-parte-1-radio-venceremos-1988-08-09-parte-1/canvas-1/canvas",
+        "selector": {
+          "type": "PointSelector",
+          "t": "10.185625"
+        }
+      }
+    }
+  ]
+}
